@@ -5,7 +5,7 @@
   <title><?= $dataMeta['title']; ?></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="google-site-verification" content="SGSKgOf9XE5lPGGZ2W1F6ygb2YKj7V91xmf_FBgaH94" />
+  <meta name="google-site-verification" content="6RQq5_lx59DirkFRwcGnDbrEzpGleAF0w643YZ9SOsY" />
   <?php foreach ($dataMeta['meta'] as $m) : ?>
     <meta name="<?= $m['name']; ?>" content="<?= $m['content']; ?>">
   <?php endforeach; ?>
