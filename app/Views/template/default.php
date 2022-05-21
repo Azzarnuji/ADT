@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="google-site-verification" content="6RQq5_lx59DirkFRwcGnDbrEzpGleAF0w643YZ9SOsY" />
+  <meta name="yandex-verification" content="a7f5ee40eca6c58f" />
   <?php foreach ($dataMeta['meta'] as $m) : ?>
     <meta name="<?= $m['name']; ?>" content="<?= $m['content']; ?>">
   <?php endforeach; ?>
