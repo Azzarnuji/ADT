@@ -22,10 +22,11 @@ class Home extends BaseController
     }
     public function rental($id = null){
         if ($id != null){
+            $getRental = $this->AdtModel->where('idMobil',$id)->first();
             $sendData = [
-                'dataMeta'=>$this->anyHelpers->createMeta('rental',$id)->getMeta(),
+                'dataMeta'=>$this->anyHelpers->createMeta('rental',$id,$getRental['img'])->getMeta(),
                 'id'=>$id,
-                'rental'=>$this->AdtModel->where('idMobil',$id)->first()
+                'rental'=>$getRental
             ];
             if($sendData['rental'] == null){
                 return redirect()->to('/');

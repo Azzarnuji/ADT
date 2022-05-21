@@ -11,7 +11,7 @@ class Any_Helper{
      * Create Meta data
      * @param string $dataValue
      */
-    public function createMeta(string $dataValue = null, string $titleRental = null):object
+    public function createMeta(string $dataValue = null, string $titleRental = null, string $image = null ):object
     {
         if($dataValue == null){
             $this->data = [
@@ -19,7 +19,7 @@ class Any_Helper{
                 'meta'=>[
                     [
                         'name'=>'description',
-                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata Di Jabodetabek Dan Sekitarnya."
+                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata."
     
                     ],
                     [
@@ -70,7 +70,7 @@ class Any_Helper{
                     ],
                     [
                         'value'=>'og:description',
-                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata Di Jabodetabek Dan Sekitarnya."
+                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata."
                     ]
                 ]
             ];
@@ -82,7 +82,7 @@ class Any_Helper{
                 'meta'=>[
                     [
                         'name'=>'description',
-                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata Di Jabodetabek Dan Sekitarnya."
+                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata."
     
                     ],
                     [
@@ -133,7 +133,7 @@ class Any_Helper{
                     ],
                     [
                         'value'=>'og:description',
-                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata Di Jabodetabek Dan Sekitarnya."
+                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata."
                     ]
                 ]
             ];
@@ -144,7 +144,7 @@ class Any_Helper{
                 'meta'=>[
                     [
                         'name'=>'description',
-                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata Di Jabodetabek Dan Sekitarnya."
+                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata."
     
                     ],
                     [
@@ -195,7 +195,7 @@ class Any_Helper{
                     ],
                     [
                         'value'=>'og:description',
-                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata Di Jabodetabek Dan Sekitarnya."
+                        'content'=>"ADT Premium Car Merupakan Penyedia Jasa Yang Bergerak Di Bidang Pelayanan Rental Mobil Mewah Di Jabodetabek Dan Juga Melayani Antar Jemput Ke Tempat Wisata."
                     ]
                 ]
             ];
