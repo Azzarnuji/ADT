@@ -186,7 +186,7 @@
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text"><a href="https://maps.app.goo.gl/kz7XqEjCC6Qhd2oW8">RT.003/RW.003, Jatibening, Kec. Pd. Gede, Kota Bks, Jawa Barat 17412</a></span></li>
                 <li><a href="https://api.whatsapp.com/send?phone=628118943333&text=Halo Admin ADT Premium Car%0D%0ASaya Mau Infomasi Rental Mobil"><span class="icon icon-phone"></span><span class="text">+62 811-8943-333</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">admin@adtpremiumcar.com</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">adtpremiumcar@gmail.com</span></a></li>
               </ul>
             </div>
           </div>
