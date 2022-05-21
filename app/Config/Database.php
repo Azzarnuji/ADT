@@ -34,9 +34,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'pons6262_adtMaster',
-        'password' => 'AdtMaster2022',
-        'database' => 'pons6262_adtpremiumcar',
+        'username' => 'u1803781_adtMaster',
+        'password' => '~l*.sKxZEG_b',
+        'database' => 'u1803781_adtpremiumcar',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
