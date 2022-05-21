@@ -12,22 +12,22 @@
   <?php foreach ($dataMeta['metaProperty'] as $mp) : ?>
     <meta property="<?= $mp['value']; ?>" content="<?= $mp['content']; ?>">
   <?php endforeach; ?>
-  <link rel="apple-touch-icon" sizes="57x57" href="<?=base_url('/assets/favicon/apple-icon-57x57.png')?>">
-  <link rel="apple-touch-icon" sizes="60x60" href="<?=base_url('/assets/favicon/apple-icon-60x60.png')?>">
-  <link rel="apple-touch-icon" sizes="72x72" href="<?=base_url('/assets/favicon/apple-icon-72x72.png')?>">
-  <link rel="apple-touch-icon" sizes="76x76" href="<?=base_url('/assets/favicon/apple-icon-76x76.png')?>">
-  <link rel="apple-touch-icon" sizes="114x114" href="<?=base_url('/assets/favicon/apple-icon-114x114.png')?>">
-  <link rel="apple-touch-icon" sizes="120x120" href="<?=base_url('/assets/favicon/apple-icon-120x120.png')?>">
-  <link rel="apple-touch-icon" sizes="144x144" href="<?=base_url('/assets/favicon/apple-icon-144x144.png')?>">
-  <link rel="apple-touch-icon" sizes="152x152" href="<?=base_url('/assets/favicon/apple-icon-152x152.png')?>">
-  <link rel="apple-touch-icon" sizes="180x180" href="<?=base_url('/assets/favicon/apple-icon-180x180.png')?>">
-  <link rel="icon" type="image/png" sizes="192x192" href="<?=base_url('/assets/favicon/android-icon-192x192.png')?>">
-  <link rel="icon" type="image/png" sizes="32x32" href="<?=base_url('/assets/favicon/favicon-32x32.png')?>">
-  <link rel="icon" type="image/png" sizes="96x96" href="<?=base_url('/assets/favicon/favicon-96x96.png')?>">
-  <link rel="icon" type="image/png" sizes="16x16" href="<?=base_url('/assets/favicon/favicon-16x16.png')?>">
-  <link rel="manifest" href="<?=base_url('/assets/favicon/manifest.json')?>">
+  <link rel="apple-touch-icon" sizes="57x57" href="<?= base_url('/assets/favicon/apple-icon-57x57.png') ?>">
+  <link rel="apple-touch-icon" sizes="60x60" href="<?= base_url('/assets/favicon/apple-icon-60x60.png') ?>">
+  <link rel="apple-touch-icon" sizes="72x72" href="<?= base_url('/assets/favicon/apple-icon-72x72.png') ?>">
+  <link rel="apple-touch-icon" sizes="76x76" href="<?= base_url('/assets/favicon/apple-icon-76x76.png') ?>">
+  <link rel="apple-touch-icon" sizes="114x114" href="<?= base_url('/assets/favicon/apple-icon-114x114.png') ?>">
+  <link rel="apple-touch-icon" sizes="120x120" href="<?= base_url('/assets/favicon/apple-icon-120x120.png') ?>">
+  <link rel="apple-touch-icon" sizes="144x144" href="<?= base_url('/assets/favicon/apple-icon-144x144.png') ?>">
+  <link rel="apple-touch-icon" sizes="152x152" href="<?= base_url('/assets/favicon/apple-icon-152x152.png') ?>">
+  <link rel="apple-touch-icon" sizes="180x180" href="<?= base_url('/assets/favicon/apple-icon-180x180.png') ?>">
+  <link rel="icon" type="image/png" sizes="192x192" href="<?= base_url('/assets/favicon/android-icon-192x192.png') ?>">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?= base_url('/assets/favicon/favicon-32x32.png') ?>">
+  <link rel="icon" type="image/png" sizes="96x96" href="<?= base_url('/assets/favicon/favicon-96x96.png') ?>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url('/assets/favicon/favicon-16x16.png') ?>">
+  <link rel="manifest" href="<?= base_url('/assets/favicon/manifest.json') ?>">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="<?=base_url('/assets/favicon/ms-icon-144x144.png')?>">
+  <meta name="msapplication-TileImage" content="<?= base_url('/assets/favicon/ms-icon-144x144.png') ?>">
   <meta name="theme-color" content="#ffffff">
 
   <link rel="canonical" href="<?= base_url(); ?>">
@@ -110,9 +110,9 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active" id="home" onclick="setActive(this.id)"><a href="/" class="nav-link" >Home</a></li>
+          <li class="nav-item active" id="home" onclick="setActive(this.id)"><a href="/" class="nav-link">Home</a></li>
           <li class="nav-item" id="rental" onclick="setActive(this.id)"><a href="<?= base_url('/rental'); ?>" class="nav-link">Daftar Harga</a></li>
-          <li class="nav-item" id="tentang_kami" onclick="setActive(this.id)"><a href="#about" class="nav-link" onclick="redirecTo(this)" >Tentang kami</a></li>
+          <li class="nav-item" id="tentang_kami" onclick="setActive(this.id)"><a href="#about" class="nav-link" onclick="redirecTo(this)">Tentang kami</a></li>
           <li class="nav-item" id="kontak_kami" onclick="setActive(this.id)"><a href="#kontak" class="nav-link" onclick="redirecTo(this)">Kontak Kami</a></li>
         </ul>
       </div>
@@ -130,10 +130,10 @@
 
 
   <footer class="ftco-footer ftco-bg-dark ftco-section">
-     <div style="position:fixed;right:20px;bottom:20px;z-index: 4;">
+    <div style="position:fixed;right:20px;bottom:20px;z-index: 4;">
       <a href="https://api.whatsapp.com/send?phone=628118943333&text=Halo Admin ADT Premium Car%0D%0ASaya Mau Infomasi Rental Mobil">
         <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px" class="btn btn-block btn-info">
-          <img src="<?=base_url("/assets/images/png/wa.png");?>" style="margin-right: 10px;">Whatsapp Kami</button></a>
+          <img src="<?= base_url("/assets/images/png/wa.png"); ?>" style="margin-right: 10px;">Whatsapp Kami</button></a>
     </div>
     <div class="container">
       <div class="row mb-5">
@@ -185,6 +185,18 @@
         }, 2000)
       })
     });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBDDMCMC1X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FBDDMCMC1X');
   </script>
   <script src="<?= base_url('assets/js/jquery-migrate-3.0.1.min.js') ?>"></script>
   <script src="<?= base_url('assets/js/popper.min.js') ?>"></script>
