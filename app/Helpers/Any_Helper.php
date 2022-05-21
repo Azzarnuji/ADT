@@ -97,11 +97,11 @@ class Any_Helper{
                 'metaProperty'=>[
                     [
                         'value'=>'og:image',
-                        'content'=>base_url('assets/images/pt-logo-ad.webp')
+                        'content'=>base_url('assets/images/'.$image)
                     ],
                     [
                         'value'=>'og:image:secure_url',
-                        'content'=>base_url('assets/images/pt-logo-ad.webp')
+                        'content'=>base_url('assets/images/'.$image)
                     ],
                     [
                         'value'=>'og:image:width',
