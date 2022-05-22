@@ -128,8 +128,7 @@
         "opens": "00:00",
         "closes": "23:59"
       },
-      "sameAs": "https://adtpremiumcar.com/",
-      "menu":"https://adtpremiumcar.com/rental"
+      "sameAs": "https://adtpremiumcar.com/"
     }
   </script>
   <!-- Google Tag Manager -->
