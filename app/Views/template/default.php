@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id,en">
 
 <head>
   <title><?= $dataMeta['title']; ?></title>
