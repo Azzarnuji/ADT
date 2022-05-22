@@ -97,6 +97,41 @@
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
   <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Rental Mobil Premium",
+      "image": "https://adtpremiumcar.com/assets/images/pt-logo-ad.webp",
+      "@id": "",
+      "url": "https://adtpremiumcar.com",
+      "telephone": "+62 811-8943-333",
+      "priceRange": "Rp700,000 - Rp3.000.000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jatibening",
+        "addressLocality": "Bekasi",
+        "postalCode": "17456",
+        "addressCountry": "ID"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      },
+      "sameAs": "https://adtpremiumcar.com/",
+      "menu":"https://adtpremiumcar.com/rental"
+    }
+  </script>
   <!-- Google Tag Manager -->
   <script>
     (function(w, d, s, l, i) {
