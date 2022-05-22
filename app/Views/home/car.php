@@ -25,9 +25,9 @@
 				<div class="text justify-content-center">
 
 					<div class="row justify-content-center">
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(1).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 1" style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(4).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 2" style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(3).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 3" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh1.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 1" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh4.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 2" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh3.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 3" style="max-width: 100%;"></div>
 					</div>
 					<h2 class="mb-0"><a href="#" style="color: white !important;"><?= $highlight['merk']; ?></a></h2>
 					<div class="d-flex mb-3">
