@@ -34,8 +34,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/about','Home::about');
 $routes->get('/rental','Home::rental');
-$routes->get('/rental/(:alphanum)','Home::rental/$1');
-$routes->get('/detail/(:any)','Home::detail/$1/$2/$3/$4/$5/$6');
+$routes->get('/rental/(:any)','Home::rental/$1');
+// $routes->get('/detail/(:any)','Home::detail/$1/$2/$3/$4/$5/$6');
 // $routes->get('/detail','Home::detail');
 
 /*
