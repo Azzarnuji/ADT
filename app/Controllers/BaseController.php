@@ -53,5 +53,6 @@ class BaseController extends Controller
         $this->anyHelpers = new Any_Helper;
         $this->AdtModel = new Adt_Model();
         $this->response->setHeader("Content-Language","id,en");
+        $this->response->setHeader("Vary","Accept-Language");
     }
 }
