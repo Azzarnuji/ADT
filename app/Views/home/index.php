@@ -41,7 +41,7 @@
 												<div class="col-md-6 d-flex align-self-stretch ftco-animate">
 													<div class="services w-100 text-center">
 														<div class="text w-100">
-															<img src="assets/images/rent.png" class="rounded-circle" alt="" height="70" width="70">
+															<img src="assets/images/rent.png" class="rounded-circle" alt="Rental Mobil" height="70" width="70">
 															<h3 class="heading mb-2 mt-1">Rental Mobil</h3>
 														</div>
 													</div>
@@ -49,7 +49,7 @@
 												<div class="col-md-6 d-flex align-self-stretch ftco-animate">
 													<div class="services w-100 text-center">
 														<div class="text w-100">
-															<img src="img/plane.png" class="rounded-circle" alt="" height="60" width="60">
+															<img src="img/plane.png" class="rounded-circle" alt="Paket Wisata" height="60" width="60">
 															<h3 class="heading mb-2 mt-3">Paket Wisata</h3>
 														</div>
 													</div>
@@ -98,9 +98,9 @@
 				<img src="<?= base_url('/assets/images/car/'.$highlight['img']); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 95%;">
 				<div class="text justify-content-center">
 					<div class="row justify-content-center">
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(1).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(4).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(3).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(1).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 1" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(4).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 2" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(3).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 2" style="max-width: 100%;"></div>
 					</div>
 					<h2 class="mb-0"><a href="#" style="color: white !important;">Hiace Premio Luxury</a></h2>
 					<div class="d-flex mb-3">
@@ -206,7 +206,7 @@
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="col-md-6">
-				<img src="assets/images/pt-logo-ad.webp" alt="" class="img-fluid">
+				<img src="assets/images/pt-logo-ad.webp" alt="ADTPremium Car" class="img-fluid">
 
 			</div>
 			<div class="col-md-6 wrap-about ftco-animate">
@@ -233,7 +233,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12 d-flex align-items-center justify-content-center ftco-animate">
-				<img src="<?= base_url('assets/images/pt-logo-ad.webp'); ?>" class="img-fluid" alt="DRIS" style="width: 30%;">
+				<img src="<?= base_url('assets/images/pt-logo-ad.webp'); ?>" class="img-fluid" alt="ADTPremium Car" style="width: 30%;">
 			</div>
 		</div>
 		<div class="row d-flex mb-4 mt-5">
@@ -279,7 +279,7 @@
 				<div class="services w-100 text-center">
 					<div class="text w-100">
 						<h4>Bank Rakyat Indonesia(BRI)</h4>
-						<img src="<?= base_url('assets/images/png/bri.png'); ?>" alt="bca" style="width: 70px; height: 70px;">
+						<img src="<?= base_url('assets/images/png/bri.png'); ?>" alt="bri" style="width: 70px; height: 70px;">
 						<p>No.Rek : <span style="color: black;">0346 0100 1032 307</span>  <br> A/N :<span style="color: black;"> PT.ADTRANS RENTCAR Indonesia</span> </p>
 					</div>
 				</div>
@@ -288,7 +288,7 @@
 				<div class="services w-100 text-center">
 					<div class="text w-100">
 					<h4>Bank Mandiri</h4>
-						<img src="<?= base_url('assets/images/png/mandiri.png'); ?>" alt="bca" style="width: 70px; height: 70px;">
+						<img src="<?= base_url('assets/images/png/mandiri.png'); ?>" alt="mandiri" style="width: 70px; height: 70px;">
 						<p>No.Rek : <span style="color: black;">167 0000 5370 91</span>  <br> A/N :<span style="color: black;"> ADE A G</span> </p>
 					</div>
 				</div>
