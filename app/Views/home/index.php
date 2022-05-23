@@ -99,9 +99,9 @@
 				<img src="<?= base_url('/assets/images/car/'.$highlight['img']); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 95%;">
 				<div class="text justify-content-center">
 					<div class="row justify-content-center">
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh1.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh4.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh3.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh1.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh4.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh3.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
 					</div>
 					<h2 class="mb-0"><a href="#" style="color: white !important;">Hiace Premio Luxury</a></h2>
 					<div class="d-flex mb-3">
