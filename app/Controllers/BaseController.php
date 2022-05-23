@@ -2,14 +2,16 @@
 
 namespace App\Controllers;
 
-use App\Models\Adt_Model;
-use App\Helpers\Any_Helper;
 use CodeIgniter\Controller;
-use Psr\Log\LoggerInterface;
 use CodeIgniter\HTTP\CLIRequest;
 use CodeIgniter\HTTP\IncomingRequest;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
+use Psr\Log\LoggerInterface;
+use App\Helpers\Any_Helper;
+use App\Models\Adt_Model;
+use App\Models\Reviews_Model;
+use App\Models\Test_Model;
 
 /**
  * Class BaseController
@@ -52,7 +54,6 @@ class BaseController extends Controller
         // E.g.: $this->session = \Config\Services::session();
         $this->anyHelpers = new Any_Helper;
         $this->AdtModel = new Adt_Model();
-        $this->response->setHeader("Content-Language","id,en");
-        $this->response->setHeader("Vary","Accept-Language");
+        $this->Reviews = new Reviews_Model();
     }
 }

@@ -9,7 +9,8 @@ class Home extends BaseController
         $sendData = [
             'dataMeta'=>$this->anyHelpers->createMeta()->getMeta(),
             'daftarRental'=>$this->AdtModel->where('status','non')->findAll(),
-            'highlight'=>$this->AdtModel->where('status','highlight')->first()
+            'highlight'=>$this->AdtModel->where('status','highlight')->first(),
+            'reviews'=>$this->Reviews->findAll()
         ];
         return view('home/index',$sendData);
     }
@@ -22,19 +23,18 @@ class Home extends BaseController
     }
     public function rental($id = null){
         if ($id != null){
-            $getRental = $this->AdtModel->where('idMobil',$id)->first();
             $sendData = [
-                'dataMeta'=>$this->anyHelpers->createMeta('rental',$id,$getRental['img'])->getMeta(),
+                'dataMeta'=>$this->anyHelpers->createMeta('rental',$id)->getMeta(),
                 'id'=>$id,
-                'rental'=>$getRental
+                'rental'=>$this->AdtModel->where('idMobil',$id)->first()
             ];
-            if($sendData['rental'] == null){
+            if ($sendData['rental'] == null){
                 return redirect()->to('/');
             }else{
+
                 return view('home/detail',$sendData);
             }
         }else{
-
             $sendData = [
                 'dataMeta'=>$this->anyHelpers->createMeta('rental')->getMeta(),
                 'highlight'=>$this->AdtModel->where('status','highlight')->first(),

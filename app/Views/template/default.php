@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="id,en">
+<html lang="en">
 
 <head>
   <title><?= $dataMeta['title']; ?></title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="google-site-verification" content="6RQq5_lx59DirkFRwcGnDbrEzpGleAF0w643YZ9SOsY" />
-  <meta name="yandex-verification" content="a7f5ee40eca6c58f" />
   <?php foreach ($dataMeta['meta'] as $m) : ?>
     <meta name="<?= $m['name']; ?>" content="<?= $m['content']; ?>">
   <?php endforeach; ?>
@@ -48,6 +46,7 @@
   <link rel="preload" as="style" href="<?= base_url('assets/css/flaticon.css') ?>">
   <link rel="preload" as="style" href="<?= base_url('assets/css/icomoon.css'); ?>">
   <link rel="preload" as="style" href="<?= base_url('assets/css/style.css'); ?>">
+  <link rel="preload" as="style" href="<?= base_url('assets/css/user.css'); ?>">
   <link rel="preload" as="script" href="<?= base_url('assets/js/jquery-migrate-3.0.1.min.js') ?>">
   </link>
   <link rel="preload" as="script" href="<?= base_url('assets/js/popper.min.js') ?>">
@@ -95,66 +94,13 @@
   <link rel="stylesheet" href="<?= base_url('assets/css/flaticon.css') ?>">
   <link rel="stylesheet" href="<?= base_url('assets/css/icomoon.css'); ?>">
   <link rel="stylesheet" href="<?= base_url('assets/css/style.css'); ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/css/user.css'); ?>">
   <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Rental Mobil Premium",
-      "image": "https://adtpremiumcar.com/assets/images/pt-logo-ad.webp",
-      "@id": "",
-      "url": "https://adtpremiumcar.com",
-      "telephone": "+62 811-8943-333",
-      "priceRange": "Rp700,000 - Rp3.000.000",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Jatibening",
-        "addressLocality": "Bekasi",
-        "postalCode": "17456",
-        "addressCountry": "ID"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "00:00",
-        "closes": "23:59"
-      },
-      "sameAs": "https://adtpremiumcar.com/"
-    }
-  </script>
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-K477NGJ');
-  </script>
-  <!-- End Google Tag Manager -->
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K477NGJ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: midnightblue;">
     <div class="container">
       <!-- <a class="navbar-brand" href="index.html">Car<span>Book</span></a> -->
@@ -188,7 +134,7 @@
     <div style="position:fixed;right:20px;bottom:20px;z-index: 4;">
       <a href="https://api.whatsapp.com/send?phone=628118943333&text=Halo Admin ADT Premium Car%0D%0ASaya Mau Infomasi Rental Mobil">
         <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px" class="btn btn-block btn-info">
-          <img src="<?= base_url("/assets/images/png/wa.png"); ?>" style="margin-right: 10px;">Whatsapp Kami</button></a>
+          <img src="https://web.whatsapp.com/img/favicon/1x/favicon.png" style="margin-right: 10px;">Whatsapp Kami</button></a>
     </div>
     <div class="container">
       <div class="row mb-5">
@@ -220,7 +166,7 @@
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text"><a href="https://maps.app.goo.gl/kz7XqEjCC6Qhd2oW8">RT.003/RW.003, Jatibening, Kec. Pd. Gede, Kota Bks, Jawa Barat 17412</a></span></li>
                 <li><a href="https://api.whatsapp.com/send?phone=628118943333&text=Halo Admin ADT Premium Car%0D%0ASaya Mau Infomasi Rental Mobil"><span class="icon icon-phone"></span><span class="text">+62 811-8943-333</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">adtpremiumcar@gmail.com</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">admin@adtpremiumcar.com</span></a></li>
               </ul>
             </div>
           </div>
@@ -241,18 +187,7 @@
       })
     });
   </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBDDMCMC1X"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-FBDDMCMC1X');
-  </script>
+  <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.0.7/js/star-rating.js" type="text/javascript"></script>
   <script src="<?= base_url('assets/js/jquery-migrate-3.0.1.min.js') ?>"></script>
   <script src="<?= base_url('assets/js/popper.min.js') ?>"></script>
   <script src="<?= base_url('assets/js/bootstrap.min.js') ?>"></script>
