@@ -24,7 +24,7 @@ class Any_Helper{
                     ],
                     [
                         'name'=>'keywords',
-                        'content'=>'Rental mobil terdekat, Rental, Mobil, rental mobil, rental mobil bekasi, ADT, ADTrans, ADT Premuium Car'
+                        'content'=>'Rental mobil terdekat, Rental, Mobil, rental mobil, rental mobil bekasi, ADT, ADTrans, ADT Premuium Car, adtpremiumcar, adt, Adt, ADT'
                     ],
                     [
                         'name'=>'author',
@@ -87,7 +87,7 @@ class Any_Helper{
                     ],
                     [
                         'name'=>'keywords',
-                        'content'=>'Rental mobil terdekat, Rental, Mobil, rental mobil, rental mobil bekasi, ADT, ADTrans, ADT Premuium Car'
+                        'content'=>'Rental mobil terdekat, Rental, Mobil, rental mobil, rental mobil bekasi, ADT, ADTrans, ADT Premuium Car, adtpremiumcar, adt, Adt, ADT'
                     ],
                     [
                         'name'=>'author',
@@ -149,7 +149,7 @@ class Any_Helper{
                     ],
                     [
                         'name'=>'keywords',
-                        'content'=>'Rental mobil terdekat, Rental, Mobil, rental mobil, rental mobil bekasi, ADT, ADTrans, ADT Premuium Car'
+                        'content'=>'Rental mobil terdekat, Rental, Mobil, rental mobil, rental mobil bekasi, ADT, ADTrans, ADT Premuium Car, adtpremiumcar, adt, Adt, ADT'
                     ],
                     [
                         'name'=>'author',
