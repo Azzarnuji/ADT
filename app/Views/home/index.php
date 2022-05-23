@@ -96,7 +96,7 @@
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-md-12">
-				<img src="<?= base_url('/assets/images/car/'.$highlight['img']); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 95%;">
+				<img src="<?= base_url('/assets/images/car/'.$highlight['img']); ?>" class="img-fluid rounded mx-auto d-block" alt="Hiace Premio Luxury" style="max-width: 100%;">
 				<div class="text justify-content-center">
 					<div class="row justify-content-center">
 						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/hiace-in-1.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
