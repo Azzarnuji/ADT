@@ -2,7 +2,7 @@
 <?= $this->extend('template/default') ?>
 <?= $this->section('content') ?>
 <!-- END nav -->
-<div class="hero-wrap ftco-degree-bg" style="background-image: url('assets/images/bg_1.jpg');" data-stellar-background-ratio="0.5" id="user">
+<div class="hero-wrap ftco-degree-bg" style="background-image: url('assets/images/bg_1.webp');" data-stellar-background-ratio="0.5" id="user">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-start justify-content-center">
@@ -99,9 +99,9 @@
 				<img src="<?= base_url('/assets/images/car/'.$highlight['img']); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 95%;">
 				<div class="text justify-content-center">
 					<div class="row justify-content-center">
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(1).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(4).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh(3).jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh1.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh4.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh3.jpg'); ?>" class="img-fluid rounded mx-auto d-block" alt="..." style="max-width: 100%;"></div>
 					</div>
 					<h2 class="mb-0"><a href="#" style="color: white !important;">Hiace Premio Luxury</a></h2>
 					<div class="d-flex mb-3">
@@ -303,7 +303,7 @@
 				<div class="services w-100 text-center">
 					<div class="text w-100">
 						<h4>Bank Central Asia(BCA)</h4>
-						<img src="<?= base_url('assets/images/png/bca.png'); ?>" alt="bca" style="width: 70px; height: 70px;">
+						<img src="<?= base_url('assets/images/png/bca.webp'); ?>" alt="bca" style="width: 70px; height: 70px;">
 						<p>No.Rek : <span style="color: black;">8800 7990 59</span>  <br> A/N :<span style="color: black;"> Lendo Ritonga</span> </p>
 					</div>
 				</div>
@@ -312,7 +312,7 @@
 				<div class="services w-100 text-center">
 					<div class="text w-100">
 						<h4>Bank Rakyat Indonesia(BRI)</h4>
-						<img src="<?= base_url('assets/images/png/bri.png'); ?>" alt="bca" style="width: 70px; height: 70px;">
+						<img src="<?= base_url('assets/images/png/bri.webp'); ?>" alt="bca" style="width: 70px; height: 70px;">
 						<p>No.Rek : <span style="color: black;">0346 0100 1032 307</span>  <br> A/N :<span style="color: black;"> PT.ADTRANS RENTCAR Indonesia</span> </p>
 					</div>
 				</div>
@@ -321,7 +321,7 @@
 				<div class="services w-100 text-center">
 					<div class="text w-100">
 					<h4>Bank Mandiri</h4>
-						<img src="<?= base_url('assets/images/png/mandiri.png'); ?>" alt="bca" style="width: 70px; height: 70px;">
+						<img src="<?= base_url('assets/images/png/mandiri.webp'); ?>" alt="bca" style="width: 70px; height: 70px;">
 						<p>No.Rek : <span style="color: black;">167 0000 5370 91</span>  <br> A/N :<span style="color: black;"> ADE A G</span> </p>
 					</div>
 				</div>
