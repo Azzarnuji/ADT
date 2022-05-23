@@ -203,6 +203,7 @@
         }, 2000)
       })
     });
+    document.addEventListener('touchstart', onTouchStart, {passive: true});
   </script>
   <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.0.7/js/star-rating.js" type="text/javascript"></script>
   <script src="<?= base_url('assets/js/jquery-migrate-3.0.1.min.js') ?>"></script>
