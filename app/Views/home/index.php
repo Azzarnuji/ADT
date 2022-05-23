@@ -2,7 +2,7 @@
 <?= $this->extend('template/default') ?>
 <?= $this->section('content') ?>
 <!-- END nav -->
-<div class="hero-wrap ftco-degree-bg" style="background-image: url('assets/images/bg_1.kh');" data-stellar-background-ratio="0.5" id="user">
+<div class="hero-wrap ftco-degree-bg" style="background-image: url('assets/images/bg_1.webp');" data-stellar-background-ratio="0.5" id="user">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-start justify-content-center">
@@ -332,9 +332,9 @@
 
 <script>
 	document.addEventListener("DOMContentLoaded", function(event) {
-		$('<img/>').attr('src', 'assets/images/bg_1.jpg').on('load', function() {
+		$('<img/>').attr('src', 'assets/images/bg_1.webp').on('load', function() {
 			$(this).remove(); // prevent memory leaks as @benweet suggested
-			$('#user').css('background-image', 'url(assets/images/bg_1.jpg)');
+			$('#user').css('background-image', 'url(assets/images/bg_1.webp)');
 		});
 		// Your code to run since DOM is loaded and ready
 	});
