@@ -7,7 +7,7 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-start justify-content-center">
 			<div class="col-lg-8 ftco-animate">
-				<div class="text w-100 text-center mb-md-5 pb-md-5" style="margin-top: 40%;">
+				<div class="text w-100 text-center mb-md-5 pb-md-5" style="margin-top: 30%;">
 					<h1 class="mb-4">ADT Premium Car </h1>
 					<h2 class="mb-4" style="color: white;">Rental Mobil Premium Cepat &amp; Mudah </h1>
 					<p style="font-size: 18px;">"We see customers as invited guests to a party, and we are the hosts.
