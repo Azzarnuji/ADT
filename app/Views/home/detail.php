@@ -18,8 +18,8 @@
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-12">
+				<img src="<?= base_url('assets/images/car/'.$rental['img'])?>" class="img-fluid" alt="<?=$rental['merk'];?>" srcset="" style="width:100% ; height:100% ;">
 				<div class="car-details">
-					<img src="<?= base_url('assets/images/car/'.$rental['img'])?>" class="img-fluid" alt="" srcset="">
 					<?php if ($id == "hiace") : ?>
 						<div class="row justify-content-center">
 						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/hiace-in-1.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 1" style="max-width: 100%;"></div>
