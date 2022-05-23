@@ -17,8 +17,8 @@
 <section class="ftco-section ftco-car-details">
 	<div class="container">
 		<div class="row justify-content-center">
+			<img src="<?= base_url('assets/images/car/'.$rental['img'])?>" class="img-fluid" alt="<?=$rental['merk'];?>" srcset="" style="max-width:100% ;">
 			<div class="col-md-12">
-				<img src="<?= base_url('assets/images/car/'.$rental['img'])?>" class="img-fluid" alt="<?=$rental['merk'];?>" srcset="" style="max-width:100% ;">
 				<div class="car-details">
 					<?php if ($id == "hiace") : ?>
 						<div class="row justify-content-center">
