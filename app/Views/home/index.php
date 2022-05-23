@@ -275,7 +275,7 @@
 					</div>
 					<div class="col-md-6 justify-content-center">
 						<h5><?=$rv['name'];?></h5>
-						<div class="star-ratings-css" title=".<?=$rv['rating']*200;?>"></div>
+						<div class="star-ratings-css justify-content-start" title=".<?=$rv['rating']*200;?>"></div>
 						
 					</div>
 				</div>
