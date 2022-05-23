@@ -24,7 +24,6 @@ class App extends BaseConfig
      * @var string
      */
     public $baseURL = 'https://adtpremiumcar.com/';
-    // public $baseURL = 'http://192.168.43.100:8080/';
 
     /**
      * --------------------------------------------------------------------------

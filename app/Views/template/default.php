@@ -134,7 +134,7 @@
     <div style="position:fixed;right:20px;bottom:20px;z-index: 4;">
       <a href="https://api.whatsapp.com/send?phone=628118943333&text=Halo Admin ADT Premium Car%0D%0ASaya Mau Infomasi Rental Mobil">
         <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px" class="btn btn-block btn-info">
-          <img src="https://web.whatsapp.com/img/favicon/1x/favicon.png" style="margin-right: 10px;">Whatsapp Kami</button></a>
+          <img src="<?=base_url("assets/favicon/wa.png");?>" style="margin-right: 10px;" alt="Whatsapp">Whatsapp Kami</button></a>
     </div>
     <div class="container">
       <div class="row mb-5">
