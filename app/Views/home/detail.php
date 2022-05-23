@@ -22,8 +22,8 @@
 					<img src="<?= base_url('assets/images/car/'.$rental['img'])?>" class="img-fluid" alt="" srcset="">
 					<?php if ($id == "hiace") : ?>
 						<div class="row justify-content-center">
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh1.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 1" style="max-width: 100%;"></div>
-						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh4.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 2" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/hiace-in-1.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 1" style="max-width: 100%;"></div>
+						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/hiace-in-2.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 2" style="max-width: 100%;"></div>
 						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh3.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 3" style="max-width: 100%;"></div>
 						<div class="col-md-4 mt-1"><img src="<?= base_url('/img/inh2.webp'); ?>" class="img-fluid rounded mx-auto d-block" alt="Interior 4" style="max-width: 50%;"></div>
 						</div>
