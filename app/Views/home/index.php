@@ -86,7 +86,7 @@
 </section>
 
 
-<section class="ftco-section ftco-no-pt bg-light" id="mobil" style="background-color: black !important;">
+<section class="ftco-section ftco-no-pt bg-light ftco-animate" id="mobil" style="background-color: black !important;">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-12 heading-section text-center ftco-animate mb-5" style="margin-top: 20px;">
@@ -120,7 +120,7 @@
 		</div>
 	</div>
 </section>
-<section class="ftco-section ftco-no-pt bg-light" id="mobil">
+<section class="ftco-section ftco-no-pt bg-light ftco-animate" id="mobil">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-md-12 heading-section text-center ftco-animate mb-5 mt-5">
@@ -164,7 +164,7 @@
 	</div>
 </section>
 
-<section class="ftco-section" style="background-color: black; margin-bottom: 20px;">
+<section class="ftco-section ftco-animate" style="background-color: black; margin-bottom: 20px;">
 	<div class="container">
 		<div class="row justify-content-center mb-2">
 			<div class="col-md-7 text-center heading-section ftco-animate">
@@ -203,7 +203,7 @@
 		</div>
 	</div>
 </section>
-<section class="ftco-section ftco-about" id="about">
+<section class="ftco-section ftco-about ftco-animate" id="about">
 	<div class="container">
 		<div class="row no-gutters">
 			<div class="col-md-6">
