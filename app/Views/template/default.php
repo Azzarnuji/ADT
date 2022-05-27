@@ -82,47 +82,70 @@
   <link rel="stylesheet" href="<?= base_url('assets/css/user.css'); ?>">
   <script src="<?= base_url('assets/js/jquery.min.js') ?>"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBDDMCMC1X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FBDDMCMC1X');
+  </script>
+  
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K477NGJ');</script>
+  <!-- End Google Tag Manager -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8808537585907950"
+     crossorigin="anonymous"></script>
 </head>
 
 <body>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TravelAgency",
-  "name": "Rental Mobil Premium dan Mewah",
-  "image": "https://adtpremiumcar.com/assets/images/pt-logo-ad.webp",
-  "@id": "",
-  "url": "https://adtpremiumcar.com",
-  "telephone": "+62 811-8943-333",
-  "priceRange": "Rp700.000 - Rp3.000.000",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Jatibening",
-    "addressLocality": "Bekasi",
-    "postalCode": "17426",
-    "addressCountry": "ID"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": -6.26478967734124,
-    "longitude": 106.94848836788842
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": [
-      "Monday",
-      "Tuesday",
-      "Wednesday",
-      "Thursday",
-      "Friday",
-      "Saturday",
-      "Sunday"
-    ],
-    "opens": "00:00",
-    "closes": "23:59"
-  } 
-}
-</script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K477NGJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Rental Mobil Premium dan Mewah",
+      "image": "https://adtpremiumcar.com/assets/images/pt-logo-ad.webp",
+      "@id": "",
+      "url": "https://adtpremiumcar.com",
+      "telephone": "+62 811-8943-333",
+      "priceRange": "Rp700.000 - Rp3.000.000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jatibening",
+        "addressLocality": "Bekasi",
+        "postalCode": "17426",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.26478967734124,
+        "longitude": 106.94848836788842
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      } 
+    }
+  </script>
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: midnightblue;">
     <div class="container">
       <!-- <a class="navbar-brand" href="index.html">Car<span>Book</span></a> -->
