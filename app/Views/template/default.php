@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id,en">
 
 <head>
   <title><?= $dataMeta['title']; ?></title>
@@ -91,7 +91,7 @@
 
     gtag('config', 'G-FBDDMCMC1X');
   </script>
-  
+
   <!-- Google Tag Manager -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
